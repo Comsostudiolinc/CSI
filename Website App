@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn everything about BuzKill, a unique chat platform.">
+    <title>BuzKill - The Future of Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff9e6;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffdd00;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-size: 1.2rem;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffdd00;
+        }
+
+        .painted-border {
+            border: 6px solid #ffdd00;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #ffdd00;
+            margin-bottom: 1rem;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ffdd00;
+            color: #333;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BuzKill</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <section id="home" class="painted-border">
+        <h2>Welcome to BuzKill</h2>
+        <div class="content">
+            <p>BuzKill is the future of social interaction. No posts, no likes—just a simple, raw chat experience where everyone can talk and connect in real time. It strips away the noise and brings people together in one dynamic conversation. No distractions, just pure engagement.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="painted-border">
+        <h2>Our Projects</h2>
+        <div class="content">
+            <p>Here at BuzKill, we're always innovating. From chat enhancements to new ways to connect communities, our projects focus on creating a seamless and intuitive user experience. Stay tuned for upcoming features and improvements that will revolutionize how you chat!</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 BuzKill | All Rights Reserved
+    </footer>
+
+</body>
+</html>
